@@ -1,0 +1,697 @@
+[
+    {
+        "productName": "Intel Core i7-11700K",
+        "category": "Processor",
+        "status": "In Stock",
+        "price": "$399.99",
+        "description": "Experience exceptional performance with the Intel Core i7-11700K processor.",
+        "keyFeatures": {
+            "cores": "8",
+            "threads": "16",
+            "clock Speed": "3.6 GHz (5.0 GHz Max Turbo)",
+            "socket": "LGA 1200",
+            "tDP": "125W"
+        },
+        "image": "https://example.com/images/i7-11700k.jpg",
+        "individual Rating": 4.8,
+        "average Rating": 4.7,
+        "reviews": [
+            {
+                "reviewer": "Gamer123",
+                "rating": 5,
+                "reviewText": "Fantastic processor for gaming and multitasking. Impressive speed."
+            },
+            {
+                "reviewer": "TechUser",
+                "rating": 4.5,
+                "reviewtext": "Reliable CPU with solid performance. A bit pricey though."
+            }
+        ]
+    },
+    {
+        "productName": "AMD Ryzen 5 5600X",
+        "category": "Processor",
+        "status": "In Stock",
+        "price": "$279.99",
+        "description": "Unlock high-speed performance with the AMD Ryzen 5 5600X processor.",
+        "keyFeatures": {
+            "cores": "6",
+            "threads": "12",
+            "clock Speed": "3.7 GHz (4.6 GHz Max Boost)",
+            "socket": "AM4",
+            "tDP": "65W"
+        },
+        "image": "https://example.com/images/ryzen-5600x.jpg",
+        "individual Rating": 4.7,
+        "average Rating": 4.6,
+        "reviews": [
+            {
+                "reviewer": "GamingFan",
+                "rating": 5,
+                "reviewText": "Excellent value for the performance. Runs cool and efficient."
+            },
+            {
+                "reviewer": "TechEnthusiast",
+                "rating": 4,
+                "reviewtext": "Great CPU for the price, but could use more cores for heavy tasks."
+            }
+        ]
+    },
+    {
+        "productName": "Intel Core i5-11400F",
+        "category": "Processor",
+        "status": "In Stock",
+        "price": "$199.99",
+        "description": "Achieve solid performance with the Intel Core i5-11400F processor.",
+        "keyFeatures": {
+            "cores": "6",
+            "threads": "12",
+            "clock Speed": "2.6 GHz (4.4 GHz Max Turbo)",
+            "socket": "LGA 1200",
+            "tDP": "65W"
+        },
+        "image": "https://example.com/images/i5-11400f.jpg",
+        "individual Rating": 4.5,
+        "average Rating": 4.4,
+        "reviews": [
+            {
+                "reviewer": "BudgetGamer",
+                "rating": 4,
+                "reviewText": "Affordable CPU with decent performance. Good for entry-level gaming."
+            },
+            {
+                "reviewer": "TechHobbyist",
+                "rating": 4.5,
+                "reviewtext": "Solid processor for everyday tasks. Could use more cache for better responsiveness."
+            }
+        ]
+    },
+    {
+        "productName": "AMD Ryzen 9 5900X",
+        "category": "Processor",
+        "status": "In Stock",
+        "price": "$579.99",
+        "description": "Experience elite-level performance with the AMD Ryzen 9 5900X processor.",
+        "keyFeatures": {
+            "cores": "12",
+            "threads": "24",
+            "clock Speed": "3.7 GHz (4.8 GHz Max Boost)",
+            "socket": "AM4",
+            "tDP": "105W"
+        },
+        "image": "https://example.com/images/ryzen-5900x.jpg",
+        "individual Rating": 4.9,
+        "average Rating": 4.8,
+        "reviews": [
+            {
+                "reviewer": "GamerPro",
+                "rating": 5,
+                "reviewText": "Unbeatable performance for gaming and content creation. Worth the investment."
+            },
+            {
+                "reviewer": "TechAficionado",
+                "rating": 4.5,
+                "reviewtext": "Fantastic CPU, but the high price might deter some buyers."
+            }
+        ]
+    },
+    {
+        "productName": "ASUS ROG Strix Z590-E",
+        "category": "Motherboard",
+        "status": "In Stock",
+        "price": "$299.99",
+        "description": "Unleash the full potential of your system with the ASUS ROG Strix Z590-E motherboard.",
+        "keyFeatures": {
+            "form Factor": "ATX",
+            "socket": "LGA 1200",
+            "chipset": "Z590",
+            "RAM Slots": "4",
+            "M.2 Slots": "3"
+        },
+        "image": "https://example.com/images/asus-rog-strix-z590e.jpg",
+        "individual Rating": 4.7,
+        "average Rating": 4.6,
+        "reviews": [
+            {
+                "reviewer": "GamerKing",
+                "rating": 5,
+                "reviewText": "Loaded with features and great for overclocking. Perfect for gamers."
+            },
+            {
+                "reviewer": "TechGuru",
+                "rating": 4,
+                "reviewtext": "Solid board, but the price might be a concern for some."
+            }
+        ]
+    },
+    {
+        "productName": "MSI MPG B550 Gaming Edge WiFi",
+        "category": "Motherboard",
+        "status": "In Stock",
+        "price": "$189.99",
+        "description": "Elevate your gaming experience with the MSI MPG B550 Gaming Edge WiFi motherboard.",
+        "keyFeatures": {
+            "form Factor": "ATX",
+            "socket": "AM4",
+            "chipset": "B550",
+            "RAM Slots": "4",
+            "M.2 Slots": "2"
+        },
+        "image": "https://example.com/images/msi-mpg-b550-gaming-edge-wifi.jpg",
+        "individual Rating": 4.6,
+        "average Rating": 4.5,
+        "reviews": [
+            {
+                "reviewer": "GamerX",
+                "rating": 4.5,
+                "reviewText": "Solid performance and WiFi connectivity. BIOS could use some improvements."
+            },
+            {
+                "reviewer": "TechEnthusiast",
+                "rating": 4,
+                "reviewtext": "Good mid-range board, but lacking some advanced features."
+            }
+        ]
+    },
+    {
+        "productName": "GIGABYTE X570 Aorus Ultra",
+        "category": "Motherboard",
+        "status": "In Stock",
+        "price": "$299.99",
+        "description": "Experience top-tier performance with the GIGABYTE X570 Aorus Ultra motherboard.",
+        "keyFeatures": {
+            "form Factor": "ATX",
+            "socket": "AM4",
+            "chipset": "X570",
+            "RAM Slots": "4",
+            "M.2 Slots": "3"
+        },
+        "image": "https://example.com/images/gigabyte-x570-aorus-ultra.jpg",
+        "individual Rating": 4.8,
+        "average Rating": 4.7,
+        "reviews": [
+            {
+                "reviewer": "EnthusiastGamer",
+                "rating": 5,
+                "reviewText": "Fantastic board with excellent VRMs. Worth the investment for enthusiasts."
+            },
+            {
+                "reviewer": "TechPro",
+                "rating": 4.5,
+                "reviewtext": "Great for overclocking, but the BIOS interface could be better."
+            }
+        ]
+    },
+    {
+        "productName": "ASRock B450M Steel Legend",
+        "category": "Motherboard",
+        "status": "In Stock",
+        "price": "$89.99",
+        "description": "Achieve reliable performance with the ASRock B450M Steel Legend motherboard.",
+        "keyFeatures": {
+            "form Factor": "Micro ATX",
+            "socket": "AM4",
+            "chipset": "B450",
+            "RAM Slots": "4",
+            "M.2 Slots": "1"
+        },
+        "image": "https://example.com/images/asrock-b450m-steel-legend.jpg",
+        "individual Rating": 4.5,
+        "average Rating": 4.4,
+        "reviews": [
+            {
+                "reviewer": "BudgetBuilder",
+                "rating": 4,
+                "reviewText": "Affordable board with decent features. BIOS updates could be more frequent."
+            },
+            {
+                "reviewer": "TechHobbyist",
+                "rating": 4.5,
+                "reviewtext": "Solid budget option, but lacks some modern connectivity options."
+            }
+        ]
+    },
+    {
+        "productName": "Corsair Vengeance RGB Pro 32GB",
+        "category": "RAM",
+        "status": "In Stock",
+        "price": "$199.99",
+        "description": "Elevate your system's performance and aesthetics with Corsair Vengeance RGB Pro 32GB RAM.",
+        "keyFeatures": {
+            "capacity": "32GB (2 x 16GB)",
+            "speed": "3200MHz",
+            "type": "DDR4",
+            "RGB": "Yes",
+            "CAS Latency": "16"
+        },
+        "image": "https://example.com/images/corsair-vengeance-rgb-pro.jpg",
+        "individual Rating": 4.8,
+        "average Rating": 4.7,
+        "reviews": [
+            {
+                "reviewer": "GamingEnthusiast",
+                "rating": 5,
+                "reviewText": "Excellent RAM with impressive RGB effects. Performance is top-notch."
+            },
+            {
+                "reviewer": "TechFanatic",
+                "rating": 4.5,
+                "reviewtext": "Great RAM, but the RGB software can be a bit finicky."
+            }
+        ]
+    },
+    {
+        "productName": "G.SKILL Trident Z Neo 16GB",
+        "category": "RAM",
+        "status": "In Stock",
+        "price": "$139.99",
+        "description": "Unlock high-speed memory performance with G.SKILL Trident Z Neo 16GB RAM.",
+        "keyFeatures": {
+            "capacity": "16GB (2 x 8GB)",
+            "speed": "3600MHz",
+            "type": "DDR4",
+            "RGB": "Yes",
+            "CAS Latency": "18"
+        },
+        "image": "https://example.com/images/gskill-trident-z-neo.jpg",
+        "individual Rating": 4.7,
+        "average Rating": 4.6,
+        "reviews": [
+            {
+                "reviewer": "GamerX",
+                "rating": 4.5,
+                "reviewText": "Fast and reliable RAM with great aesthetics. RGB customization is a plus."
+            },
+            {
+                "reviewer": "TechEnthusiast",
+                "rating": 4,
+                "reviewtext": "Solid memory, but the price could be a bit lower."
+            }
+        ]
+    },
+    {
+        "productName": "Crucial Ballistix 32GB",
+        "category": "RAM",
+        "status": "In Stock",
+        "price": "$169.99",
+        "description": "Experience enhanced memory performance with Crucial Ballistix 32GB RAM.",
+        "keyFeatures": {
+            "capacity": "32GB (2 x 16GB)",
+            "speed": "3000MHz",
+            "type": "DDR4",
+            "RGB": "No",
+            "CAS Latency": "15"
+        },
+        "image": "https://example.com/images/crucial-ballistix.jpg",
+        "individual Rating": 4.6,
+        "average Rating": 4.5,
+        "reviews": [
+            {
+                "reviewer": "PCBuilderPro",
+                "rating": 4.5,
+                "reviewText": "Reliable memory with fast speeds. Lack of RGB is not an issue for me."
+            },
+            {
+                "reviewer": "TechExpert",
+                "rating": 4,
+                "reviewtext": "Great value for the capacity and speed. A solid choice."
+            }
+        ]
+    },
+    {
+        "productName": "Team T-FORCE DARK Z 16GB",
+        "category": "RAM",
+        "status": "In Stock",
+        "price": "$119.99",
+        "description": "Boost your system's performance with Team T-FORCE DARK Z 16GB RAM.",
+        "keyFeatures": {
+            "capacity": "16GB (2 x 8GB)",
+            "speed": "3200MHz",
+            "type": "DDR4",
+            "RGB": "No",
+            "CAS Latency": "16"
+        },
+        "image": "https://example.com/images/team-tforce-dark-z.jpg",
+        "individual Rating": 4.5,
+        "average Rating": 4.4,
+        "reviews": [
+            {
+                "reviewer": "BudgetBuilder",
+                "rating": 4,
+                "reviewText": "Affordable RAM with good performance. Lack of RGB doesn't bother me."
+            },
+            {
+                "reviewer": "TechHobbyist",
+                "rating": 4.5,
+                "reviewtext": "Decent memory for the price. Performs well in games and applications."
+            }
+        ]
+    },
+    {
+        "productName": "EVGA Supernova 750W",
+        "category": "Power Supply Unit",
+        "status": "In Stock",
+        "price": "$129.99",
+        "description": "Deliver reliable and efficient power to your components with EVGA Supernova 750W PSU.",
+        "keyFeatures": {
+            "wattage": "750W",
+            "certification": "80 PLUS Gold",
+            "modular": "Full Modular",
+            "fan": "140mm",
+            "protections": "OVP, UVP, OCP, OPP, SCP, OTP"
+        },
+        "image": "https://example.com/images/evga-supernova-750w.jpg",
+        "individual Rating": 4.7,
+        "average Rating": 4.6,
+        "reviews": [
+            {
+                "reviewer": "PCBuilderPro",
+                "rating": 5,
+                "reviewText": "Reliable PSU with great efficiency. Fully modular design is a plus."
+            },
+            {
+                "reviewer": "TechExpert",
+                "rating": 4,
+                "reviewtext": "Good power supply, but it can get a bit noisy at higher loads."
+            }
+        ]
+    },
+    {
+        "productName": "Corsair RM850x",
+        "category": "Power Supply Unit",
+        "status": "In Stock",
+        "price": "$149.99",
+        "description": "Experience quiet and efficient power delivery with the Corsair RM850x PSU.",
+        "keyFeatures": {
+            "wattage": "850W",
+            "certification": "80 PLUS Gold",
+            "modular": "Fully Modular",
+            "fan": "135mm",
+            "protections": "OVP, UVP, OCP, OPP, SCP, OTP"
+        },
+        "image": "https://example.com/images/corsair-rm850x.jpg",
+        "individual Rating": 4.8,
+        "average Rating": 4.7,
+        "reviews": [
+            {
+                "reviewer": "GamerX",
+                "rating": 5,
+                "reviewText": "Top-notch PSU with quiet operation. Fully modular cables make cable management easy."
+            },
+            {
+                "reviewer": "TechEnthusiast",
+                "rating": 4.5,
+                "reviewtext": "Reliable and efficient power supply, but the price is a bit steep."
+            }
+        ]
+    },
+    {
+        "productName": "Seasonic Focus GX-750",
+        "category": "Power Supply Unit",
+        "status": "In Stock",
+        "price": "$129.99",
+        "description": "Power your system with clean and stable energy using the Seasonic Focus GX-750 PSU.",
+        "keyFeatures": {
+            "wattage": "750W",
+            "certification": "80 PLUS Gold",
+            "modular": "Full Modular",
+            "fan": "120mm",
+            "protections": "OCP, OPP, OVP, UVP, SCP, OTP"
+        },
+        "image": "https://example.com/images/seasonic-focus-gx750.jpg",
+        "individual Rating": 4.7,
+        "average Rating": 4.6,
+        "reviews": [
+            {
+                "reviewer": "EnthusiastGamer",
+                "rating": 5,
+                "reviewText": "High-quality PSU with great stability and efficiency. Worth the price."
+            },
+            {
+                "reviewer": "TechPro",
+                "rating": 4.5,
+                "reviewtext": "Solid power supply, but the cables could be more flexible."
+            }
+        ]
+    },
+    {
+        "productName": "Thermaltake Toughpower GF1 750W",
+        "category": "Power Supply Unit",
+        "status": "In Stock",
+        "price": "$139.99",
+        "description": "Provide your components with reliable power using the Thermaltake Toughpower GF1 750W PSU.",
+        "keyFeatures": {
+            "wattage": "750W",
+            "certification": "80 PLUS Gold",
+            "modular": "Full Modular",
+            "fan": "140mm",
+            "protections": "OCP, OVP, UVP, OPP, SCP, OTP"
+        },
+        "image": "https://example.com/images/thermaltake-toughpower-gf1-750w.jpg",
+        "individual Rating": 4.6,
+        "average Rating": 4.5,
+        "reviews": [
+            {
+                "reviewer": "BudgetBuilder",
+                "rating": 4,
+                "reviewText": "Good power supply with reliable performance. Modular cables make installation easy."
+            },
+            {
+                "reviewer": "TechHobbyist",
+                "rating": 4.5,
+                "reviewtext": "Solid PSU for the price, but the fan can be a bit noisy at times."
+            }
+        ]
+    },
+    {
+        "productName": "Samsung 970 EVO Plus 1TB",
+        "category": "Storage Device",
+        "status": "In Stock",
+        "price": "$169.99",
+        "description": "Experience lightning-fast storage with the Samsung 970 EVO Plus 1TB NVMe SSD.",
+        "keyFeatures": {
+            "capacity": "1TB",
+            "interface": "NVMe PCIe M.2",
+            "read Speed": "3500MB/s",
+            "write Speed": "3300MB/s",
+            "form Factor": "M.2 2280"
+        },
+        "image": "https://example.com/images/samsung-970-evo-plus-1tb.jpg",
+        "individual Rating": 4.9,
+        "average Rating": 4.8,
+        "reviews": [
+            {
+                "reviewer": "GamerExtreme",
+                "rating": 5,
+                "reviewText": "Blazing fast SSD with excellent reliability. A must-have for gamers."
+            },
+            {
+                "reviewer": "TechEnthusiast",
+                "rating": 4.5,
+                "reviewtext": "Great SSD, but the price per GB is still quite high."
+            }
+        ]
+    },
+    {
+        "productName": "Crucial MX500 1TB",
+        "category": "Storage Device",
+        "status": "In Stock",
+        "price": "$119.99",
+        "description": "Upgrade your system's storage with the reliable Crucial MX500 1TB SATA SSD.",
+        "keyFeatures": {
+            "capacity": "1TB",
+            "interface": "SATA 6Gb/s",
+            "read Speed": "560MB/s",
+            "write Speed": "510MB/s",
+            "form Factor": "2.5-inch"
+        },
+        "image": "https://example.com/images/crucial-mx500-1tb.jpg",
+        "individual Rating": 4.8,
+        "average Rating": 4.7,
+        "reviews": [
+            {
+                "reviewer": "PCBuilderPro",
+                "rating": 5,
+                "reviewText": "Solid and affordable SSD with impressive read/write speeds. Great for storage."
+            },
+            {
+                "reviewer": "TechExpert",
+                "rating": 4,
+                "reviewtext": "Reliable choice for a SATA SSD, but NVMe options are faster."
+            }
+        ]
+    },
+    {
+        "productName": "WD Blue SN550 500GB",
+        "category": "Storage Device",
+        "status": "In Stock",
+        "price": "$69.99",
+        "description": "Boost your system's performance with the WD Blue SN550 500GB NVMe SSD.",
+        "keyFeatures": {
+            "capacity": "500GB",
+            "interface": "NVMe PCIe M.2",
+            "read Speed": "2400MB/s",
+            "write Speed": "1750MB/s",
+            "form Factor": "M.2 2280"
+        },
+        "image": "https://example.com/images/wd-blue-sn550-500gb.jpg",
+        "individual Rating": 4.7,
+        "average Rating": 4.6,
+        "reviews": [
+            {
+                "reviewer": "GamingEnthusiast",
+                "rating": 4.5,
+                "reviewText": "Good NVMe SSD for the price. Speeds up system boot and application loading."
+            },
+            {
+                "reviewer": "TechFanatic",
+                "rating": 4,
+                "reviewtext": "Decent SSD, but higher capacities offer better value."
+            }
+        ]
+    },
+    {
+        "productName": "Seagate Barracuda 2TB",
+        "category": "Storage Device",
+        "status": "In Stock",
+        "price": "$84.99",
+        "description": "Store more with the spacious Seagate Barracuda 2TB SATA HDD.",
+        "keyFeatures": {
+            "capacity": "2TB",
+            "interface": "SATA 6Gb/s",
+            "speed": "7200 RPM",
+            "form Factor": "3.5-inch"
+        },
+        "image": "https://example.com/images/seagate-barracuda-2tb.jpg",
+        "individual Rating": 4.6,
+        "average Rating": 4.5,
+        "reviews": [
+            {
+                "reviewer": "BudgetBuilder",
+                "rating": 4,
+                "reviewText": "Affordable and spacious HDD for mass storage. Decent performance."
+            },
+            {
+                "reviewer": "TechHobbyist",
+                "rating": 4.5,
+                "reviewtext": "Reliable HDD with good capacity. Speed could be faster, but that's expected with HDDs."
+            }
+        ]
+    },
+    {
+        "productName": "LG 27GL850-B",
+        "category": "Monitor",
+        "status": "In Stock",
+        "price": "$449.99",
+        "description": "Immerse yourself in gaming with the LG 27GL850-B 27-inch QHD Nano IPS Monitor.",
+        "keyFeatures": {
+            "display Size": "27-inch",
+            "resolution": "2560x1440 (QHD)",
+            "refresh Rate": "144Hz",
+            "panel Type": "Nano IPS",
+            "response Time": "1ms (GTG)"
+        },
+        "image": "https://example.com/images/lg-27gl850-b.jpg",
+        "individual Rating": 4.9,
+        "average Rating": 4.8,
+        "reviews": [
+            {
+                "reviewer": "GamerExtreme",
+                "rating": 5,
+                "reviewText": "Outstanding gaming monitor with vibrant colors and smooth motion. Highly recommended."
+            },
+            {
+                "reviewer": "TechEnthusiast",
+                "rating": 4.5,
+                "reviewtext": "Great monitor, but the price might be steep for some."
+            }
+        ]
+    },
+    {
+        "productName": "Dell S2719DGF",
+        "category": "Monitor",
+        "status": "In Stock",
+        "price": "$349.99",
+        "description": "Enhance your gaming experience with the Dell S2719DGF 27-inch QHD FreeSync Monitor.",
+        "keyFeatures": {
+            "display Size": "27-inch",
+            "resolution": "2560x1440 (QHD)",
+            "refresh Rate": "155Hz",
+            "panel Type": "TN",
+            "response Time": "1ms (GTG)"
+        },
+        "image": "https://example.com/images/dell-s2719dgf.jpg",
+        "individual Rating": 4.7,
+        "average Rating": 4.6,
+        "reviews": [
+            {
+                "reviewer": "GamingFan",
+                "rating": 5,
+                "reviewText": "Fantastic gaming monitor with high refresh rate. Responsive and smooth."
+            },
+            {
+                "reviewer": "TechEnthusiast",
+                "rating": 4,
+                "reviewtext": "Good value for the performance, but colors could be better due to the TN panel."
+            }
+        ]
+    },
+    {
+        "productName": "ASUS TUF Gaming VG27AQ",
+        "category": "Monitor",
+        "status": "In Stock",
+        "price": "$399.99",
+        "description": "Immerse yourself in vivid visuals with the ASUS TUF Gaming VG27AQ 27-inch QHD Monitor.",
+        "keyFeatures": {
+            "display Size": "27-inch",
+            "resolution": "2560x1440 (QHD)",
+            "refresh Rate": "165Hz",
+            "panel Type": "IPS",
+            "response Time": "1ms (MPRT)"
+        },
+        "image": "https://example.com/images/asus-tuf-vg27aq.jpg",
+        "individual Rating": 4.8,
+        "average Rating": 4.7,
+        "reviews": [
+            {
+                "reviewer": "EnthusiastGamer",
+                "rating": 5,
+                "reviewText": "Excellent gaming monitor with vibrant colors and high refresh rate. A great investment."
+            },
+            {
+                "reviewer": "TechPro",
+                "rating": 4.5,
+                "reviewtext": "Impressive monitor, but the response time could be a bit faster."
+            }
+        ]
+    },
+    {
+        "productName": "Acer R240HY",
+        "category": "Monitor",
+        "status": "In Stock",
+        "price": "$149.99",
+        "description": "Enjoy crisp visuals with the Acer R240HY 23.8-inch Full HD IPS Monitor.",
+        "keyFeatures": {
+            "display Size": "23.8-inch",
+            "resolution": "1920x1080 (Full HD)",
+            "refresh Rate": "60Hz",
+            "panel Type": "IPS",
+            "response Time": "4ms (GTG)"
+        },
+        "image": "https://example.com/images/acer-r240hy.jpg",
+        "individual Rating": 4.6,
+        "average Rating": 4.5,
+        "reviews": [
+            {
+                "reviewer": "BudgetBuilder",
+                "rating": 4,
+                "reviewText": "Solid budget monitor with good color accuracy. Great for everyday use."
+            },
+            {
+                "reviewer": "TechHobbyist",
+                "rating": 4.5,
+                "reviewtext": "Good value for the price, but don't expect high refresh rates."
+            }
+        ]
+    }
+]
