@@ -1,13 +1,12 @@
 import Products from '@/component/product/Products'
 import RootFooter from '@/component/sheared/RootFooter'
 import RootNav from '@/component/sheared/RootNav'
-import Head from 'next/head';
-export default function index({ products }) {
+import React from 'react'
+
+export default function Index({ products }) {
+     
     return (
-        <div className="hero-overlay">
-            <Head>
-                <title>Products</title>
-            </Head>
+        <div className="container mx-auto">
             <div className="  container mx-auto flex flex-wrap gap-5 justify-center items-center py-6">
                 {
                     products.map(product => <Products key={product._id} product={product} />)
@@ -15,17 +14,17 @@ export default function index({ products }) {
             </div>
         </div>
     )
-}
+} 
 
-
-export async function getStaticProps() {
+export const getServerSideProps = async (context) => {
+    const { adtobuild } = context.query
     try {
         if (process.env.NODE_ENV === 'production' && typeof window === 'undefined') {
             return {
                 props: { products: [] },
             };
         }
-        const res = await fetch(process.env.URL + `/api/products`);
+        const res = await fetch(process.env.URL + '/api/products?categoryName=' + adtobuild);
         const products = await res.json();
 
         return {
@@ -33,17 +32,18 @@ export async function getStaticProps() {
                 products,
             },
         };
-    } catch (error) { 
+    } catch (error) {
         return {
             props: { products: [] },
         };
     }
 }
-
-index.getLayout = function (page) {
-    return <>
+Index.getLayout = function (page) {
+    return <div className="min-h-screen flex flex-col justify-between ">
         <RootNav />
-        {page}
+        <div className="flex-grow  h-full  hero-overlay">
+            {page}
+        </div>
         <RootFooter />
-    </>
+    </div>
 }

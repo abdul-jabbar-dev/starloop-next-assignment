@@ -6,7 +6,22 @@ export default async function handler(req, res) {
     if (req.methor === 'POST') {
         result = await productsDB.insertOne(req.body)
     } else {
-        result = await productsDB.find().toArray()
+        const category = req?.query?.categoryName
+        if (category) {
+            result = await productsDB.find({ category: { $regex: category, $options: 'i' } }).toArray()
+        } else {
+
+            async function shuffleArray(array) {
+                for (let i = array.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [array[i], array[j]] = [array[j], array[i]];
+                }
+            }
+
+            result = await productsDB.find().toArray();
+            await shuffleArray(result)
+
+        }
     }
     res.status(200).json(result)
 }

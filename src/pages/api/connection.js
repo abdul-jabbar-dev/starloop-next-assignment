@@ -5,6 +5,7 @@ const uri = 'mongodb+srv://abdullah1532002:abdullah1532002@cluster0.b1mqdif.mong
 const con = new MongoClient(uri)
 const run = async () => {
     const connect = await con.connect()
+
     const db = await connect.db('starloop')
     const productsDB = await db.collection('products')
     return {

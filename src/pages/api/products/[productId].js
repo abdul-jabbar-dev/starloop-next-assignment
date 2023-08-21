@@ -1,9 +1,10 @@
 import { ObjectId } from "mongodb";
 import run from "../connection";
 
-export default async function handler(req, res) {
+export default async function handler(req, res) { 
     const { productsDB } = await run()
     const { productId } = req.query
+ 
     let result;
     if (req.methor === 'POST') {
         result = await productsDB.insertOne(req.body)
