@@ -60,13 +60,13 @@ export default function Index({ product }) {
 }
 export async function getStaticProps({ params }) {
   try {
-    if (process.env.NODE_ENV === 'production' && typeof window === 'undefined') {
-      return {
-        props: {
-          products: []
-        },
-      };
-    }
+    // if (process.env.NODE_ENV === 'production' && typeof window === 'undefined') {
+    //   return {
+    //     props: {
+    //       products: []
+    //     },
+    //   };
+    // }
     const res = await fetch(process.env.URL + `/api/products/${params.productId}`);
     const product = await res.json();
 
@@ -85,9 +85,9 @@ export async function getStaticProps({ params }) {
 export const getStaticPaths = async () => {
   try {
 
-    if (process.env.NODE_ENV === 'production' && typeof window === 'undefined') {
-      return { paths: [], fallback: false };
-    }
+    // if (process.env.NODE_ENV === 'production' && typeof window === 'undefined') {
+    //   return { paths: [], fallback: false };
+    // }
     const res = await fetch(process.env.URL + '/api/products');
     const products = await res.json();
 

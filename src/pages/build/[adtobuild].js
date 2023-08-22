@@ -19,11 +19,11 @@ export default function Index({ products }) {
 export const getServerSideProps = async (context) => {
     const { adtobuild } = context.query
     try {
-        if (process.env.NODE_ENV === 'production' && typeof window === 'undefined') {
-            return {
-                props: { products: [] },
-            };
-        }
+        // if (process.env.NODE_ENV === 'production' && typeof window === 'undefined') {
+        //     return {
+        //         props: { products: [] },
+        //     };
+        // }
         const res = await fetch(process.env.URL + '/api/products?categoryName=' + adtobuild);
         const products = await res.json();
 

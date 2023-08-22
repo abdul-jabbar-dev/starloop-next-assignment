@@ -27,11 +27,11 @@ Home.getLayout = function (page) {
 
 export async function getStaticProps() {
   try { 
-    if (process.env.NODE_ENV === 'production' && typeof window === 'undefined') {
-        return {
-            props: { products: [] },
-        };
-    }
+    // if (process.env.NODE_ENV === 'production' && typeof window === 'undefined') {
+    //     return {
+    //         props: { products: [] },
+    //     };
+    // }
     const res = await fetch(process.env.URL + `/api/products`);
     const products = await res.json();
     return {
